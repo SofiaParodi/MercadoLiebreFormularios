@@ -1,0 +1,343 @@
+/* h e a d e r */
+
+header{
+    background-color: var(--color-amarillo);
+    padding-bottom: 15px;
+    padding-top: 1.5em;
+
+}
+
+header .cont-movil {
+    display: flex;
+    align-items: center;
+}
+
+header .logo{ 
+    width: 50%;
+    margin-left: 2em;
+    display: block;
+}
+
+.compra-cuotas{
+    text-align: right;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.fa-hand-holding-usd{
+    padding: 5px;
+}
+
+.busqueda{
+    padding-left: 1em;
+    display: flex;
+    align-items: stretch;
+    width: 50%;
+    height: 40px;
+}
+
+.searchBar{
+    border: none;
+    border-radius: 3px;
+    width: 90%;
+    padding-left: 1em;
+    padding: 5px;
+    height: 100%;
+}
+
+.searchButton{
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+}
+
+.enlaces{
+    display: none;
+}
+
+.burger-menu{
+    text-align: center;
+    color: white;
+    background-color: var(--color-celeste);
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* m a i n */
+
+body {
+    background-color: var(--color-gris-claro);
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+/* b a n n e r */
+
+section img {
+    width: 100%
+}
+
+
+/* a r t i c u l o s */
+main section h3 .titulo-ofertas{
+    padding: 20px;
+}
+
+main section article img {
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+main section article {
+    background-color: white;
+    width: 100%;
+    margin: 5% 0;
+    border-top: solid var(--color-gris-claro) 1px;
+}
+
+main section article .detalle {
+    padding: 15px;
+    border-top: solid var(--color-gris-claro);
+}
+
+main section article{
+    position: relative;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    }
+
+
+.fa-truck{
+    color: var(--color-verde);
+}
+
+
+
+main section .ult-visita{
+    font-size: 24px;
+
+}
+
+.prec-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+article p .precio{
+    border: 1px;
+    font-size: 20px;
+    width: 40%
+
+}
+
+article .descuento{
+    color: var(--color-verde);
+    font-size: 16px;
+    width: 60%;
+}
+
+article .titulo-producto{
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: left;
+    display: none;
+}
+
+section .ofertas{
+    font-size: 24px;
+
+}
+
+
+
+/* f o o t e r */
+footer{
+    background-color: white;
+
+}
+
+footer p, footer h4{
+    color: var(--color-gris-oscuro);
+}
+
+footer .info-footer{
+    text-align: center;
+}
+
+footer .fa-credit-card{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer .fa-gift{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer .fa-user-shield{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer .copyright{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+/* r e s p o n s i v e */
+
+
+/* t a b l e t */
+@media (min-width:361px) {
+    
+    /* h e a d e r */
+
+    .burger-menu{
+        display: none;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cont-movil{
+        width: 100%;
+    }
+
+    .busqueda {
+        height: 20px;
+        width: 100%;
+    }
+
+    .compra-cuotas{
+        font-size: 10px;
+        width: 50%;
+    }
+    .precio {
+        font-size: 17px;
+        width: 30%;
+    }
+
+    .descuento{
+        width: 70%;
+    }
+    
+
+    .producto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        border: 1px;
+    }
+
+    .enlaces {
+        display: inline;
+    }
+
+    article .titulo-producto{
+        display: block;
+    }
+
+
+    .nav-content{
+        width: 100%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-left{
+        font-size: 13px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-right{
+        font-size: 13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-left li a {
+        padding: 8px;
+    }
+
+    .nav-right li a {
+        padding-right: 8px;
+    }
+
+    /* a r t i c u l o s */
+
+    main section .cont-productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      main section div article {
+        width: 44%;
+        margin: 4px;
+      }
+
+      
+
+}
+
+
+/* d e s k t o p */
+@media (min-width:769px) {
+
+    .ult-visita, .ofertas{
+        padding: 15px;
+    }
+
+    main section .cont-productos {
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      main section div article {
+        width: 22%;
+        margin: 4px;
+      }
+}
